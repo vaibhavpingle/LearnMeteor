@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chat",
+				"chatRoom"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"messa",
+				"messageText"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"Chat",
+				"ChatRooms"
+			],
+			[
+				"Mo",
+				"Mongo"
+			],
+			[
+				"ChatRoom",
+				"ChatRoomMessages"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"sear",
+				"searchText"
+			],
+			[
+				"search",
+				"searchText"
+			],
+			[
+				"fin",
+				"findOne"
+			],
+			[
+				"set",
+				"setToPrivate"
+			],
+			[
+				"ta",
+				"taskId"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"us",
+				"userId"
+			],
+			[
+				"delete",
+				"deleteTask"
+			],
+			[
+				"me",
+				"Meteor"
+			],
+			[
+				"se",
+				"setChecked"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"e",
+				"Error"
+			],
+			[
+				"o",
+				"owner"
+			],
+			[
+				"hid",
+				"hideCompleted"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/chatApp.html",
+			"settings":
+			{
+				"buffer_size": 1663,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/chatApp.js",
+			"settings":
+			{
+				"buffer_size": 1733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/chatServer.js",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Windows",
+				"name": "startup"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Source/GitHub/LearnMeteor/simple-todos/simple-todos.js",
+		"/D/Source/GitHub/LearnMeteor/simple-todos/simple-todos.html",
+		"/D/Source/GitHub/LearnMeteor/simple-todos/simple-todos.css",
+		"/D/Source/GitHub/LearnMeteor/todos/client/templates/app-body.js",
+		"/D/Source/GitHub/LearnMeteor/todos/lib/collections.js",
+		"/D/Source/GitHub/LearnMeteor/todos/lib/router.js",
+		"/D/Source/GitHub/LearnMeteor/todos/server/publish.js",
+		"/D/Source/GitHub/LearnMeteor/todos/server/bootstrap.js",
+		"/D/Source/GitHub/LearnMeteor/todos/mobile-config.js",
+		"/D/Source/Meteor/simple-todos/simple-todos.css",
+		"/D/Source/Meteor/simple-todos/simple-todos.js",
+		"/D/Source/Meteor/simple-todos/simple-todos.html",
+		"/D/ITS/Source/ITS2/2014 ITS4.1/Truckstop.UITools/Models/ChattingModel.cs",
+		"/C/Users/vaibhavp/Downloads/truckstop-chat/data/loads.json",
+		"/C/Practice/app/services/modelService.js",
+		"/C/Practice/app/app.js",
+		"/C/Practice/app/templates/gridDemo.htm"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"js/vendor/",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"scripts/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/chatApp.html",
+					"settings":
+					{
+						"buffer_size": 1663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 338.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/chatApp.js",
+					"settings":
+					{
+						"buffer_size": 1733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								845
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 256.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server/chatServer.js",
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"auto_name": "startup",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true
+}
