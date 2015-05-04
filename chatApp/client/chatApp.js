@@ -19,7 +19,6 @@ Template.body.helpers({
 Template.body.events({
 	"submit #searchform": function(event){
 		Session.set("searchText", event.target.searchbox.value);
-
 		return false;
 	}
 });

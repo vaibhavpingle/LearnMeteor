@@ -10,44 +10,52 @@
 		</form>
 		<div>
 			{{#with searchResults}}
-			{{#if count}}
 			<span>SearchResults for <strong>{{searchText}}</strong></span>
 			<ul>
+			{{#if count}}
 				{{#each this}}
 				{{> user}}
 				{{/each}}
-			</ul>
 			{{/if}}
+			</ul>
 			{{/with}}
 		</div>
-
+		<div class="tabbable tabs-left">
 		{{> chatRooms}}
-		
+		</div>		
 	{{/if}}
 </body>
 
 <template name="user">
-	<li class="list-unstyled"><button class="btn btn-primary btn-xs" type="button" id="chatWith" name="chatWith">Chat</button><span>{{username}}</span></li>
+	<li class="list-unstyled"><button class="btn btn-default btn-xs" type="button" id="chatWith" name="chatWith">Chat with {{username}}</button></li>
 </template>
 
 <template name="chatRooms">
 	{{#with chatRooms}}
+	<ul class="nav nav-tabs" style="overflow-x: hidden; direction: rtl;">
+		{{#if count}}
+			{{#each this}}
+				<li style="direction: ltr;"><a href="#tab{{this._id}}" data-toggle="tab">{{#each this.users}}<span><strong>-{{username}}-</strong></span>{{/each}}</a></li>
+			{{/each}}
+		{{/if}}
+	</ul>
+	<div class="tab-content">
 		{{#if count}}
 			{{#each this}}
 				{{> chatRoom}}
 			{{/each}}
 		{{else}}
 			<span>You have no chat rooms. Please search for users to chat with.</span>
-		{{/if}}	
+		{{/if}}
+	</div>
 	{{else}}
 		<span>You have no chat rooms. Please search for users to chat with.</span>
 	{{/with}}
 </template>
 
 <template name="chatRoom">
-	<div style="background: blanchedalmond;">
+	<div class="tab-pane fade" id="tab{{_id}}" style="background: lightgray;">
 		<button id="deleteChatRoom" class="close" aria-label="close"><span aria-hidden="true">&times;</span></button>
-		<div style="background: lightgreen;">{{#each users}}<span><strong>-{{username}}:{{seeing}}-</strong></span>{{/each}}</div>
 		<br>
 		<ul>
 		{{#each messages}}
@@ -62,5 +70,5 @@
 </template>
 
 <template name="message">
-	<li class="list-unstyled"><strong>{{from}}:</strong>{{messageText}}</li>
+	<li><strong>{{from}}:</strong>{{messageText}}</li>
 </template>
